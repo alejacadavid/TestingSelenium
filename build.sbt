@@ -16,7 +16,6 @@ lazy val root = (project in file(".")).
       "org.junit.jupiter" % "junit-jupiter-engine" % "5.0.0-M3" % "test",
       "org.junit.vintage" % "junit-vintage-engine" % "4.12.0-M3" % "test",
       "com.novocode" % "junit-interface" % "0.11" % "test",
-      "org.seleniumhq.selenium" % "selenium-java" % "3.13.0",
-      "org.seleniumhq.selenium" % "selenium-chrome-driver" % "3.13.0"
+      "org.seleniumhq.selenium" % "selenium-java" % "3.13.0" % "test"
     )
   )

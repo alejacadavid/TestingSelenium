@@ -30,7 +30,6 @@ public class testGoogle {
 
 
         driver.get("http://www.google.com/");
-
         WebElement enterQuery = driver.findElement(By.id("lst-ib"));
         enterQuery.sendKeys("Hola");
 
